@@ -6,6 +6,13 @@
     <title>SuperRentals</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <scrip>
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: appInit,
+        role: 'quest'
+      })
+    </scrip>
 
     {{content-for "head"}}
     <!-- Google Tag Manager -->
